@@ -64,7 +64,7 @@ end
   end.first
   end
 
-    def self.update
+    def update
     sql = <<-SQL
       UPDATE students
       SET name = ?, grade = ?
